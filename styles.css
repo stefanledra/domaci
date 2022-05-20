@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .table-container {
+    margin: 5vh 10vw 0 10vw;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    border: 1px solid black;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  tbody tr:nth-child(even) {
+    background-color: #e9ecef;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  ol {
+    list-style-position: inside;
+  }
+  
+  img {
+    width: 190px;
+    height: 100px;
+  }
